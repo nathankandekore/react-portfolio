@@ -56,15 +56,53 @@ body{
     width: 100%;
 }
 
-.skills{
-    background-color: #ACC8E5;
-    height: 100%;
-    width: 50vh;
-    border: solid red;
+.about-container{
+    display: flex;
 }
 
-.about-me {
-  
-    border: solid blue;
-    color: pink;
+.about-me-text-container{
+    margin: 200px;
+    border: solid yellow;
+}
+
+
+
+ .about-me{
+    
+    height: 100vh;
+    width: 50vw;
+    border: solid red;
+    /* display: flex; */
+}
+
+.skills-icons{
+    display: flex;
+    border: solid orange;
+   
+}
+
+.skills{
+    border: solid green;
+    height: 100vh;
+    width: 50vw;
+    background-color: #ACC8E5;
+    
+}
+
+.icon-container{
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    padding: 2em;
+    margin: 1em;
+   
+    border-radius: 100%;
+    /* border: solid orange; */
+
+}
+
+.icon-container img{
+    /* border: solid red; */
+    height: 50px;
+    width: 50px;
 }
