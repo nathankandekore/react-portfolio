@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -62,7 +63,7 @@ body{
 
 .about-me-text-container{
     margin: 200px;
-    border: solid yellow;
+    /* border: solid yellow; */
 }
 
 
@@ -71,21 +72,37 @@ body{
     
     height: 100vh;
     width: 50vw;
-    border: solid red;
+    /* border: solid red; */
     /* display: flex; */
 }
 
-.skills-icons{
-    display: flex;
-    border: solid orange;
+.icons-container{
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /* border: solid pink; */
+    justify-content: space-evenly;
+    
+    margin-top: 25%;
+    
    
 }
 
+.icons-container a:hover{
+ cursor: pointer;
+}
+
+
+
+
+
 .skills{
-    border: solid green;
+    /* border: solid green; */
     height: 100vh;
     width: 50vw;
     background-color: #ACC8E5;
+    
+    
     
 }
 
@@ -98,11 +115,23 @@ body{
    
     border-radius: 100%;
     /* border: solid orange; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 
 }
 
 .icon-container img{
     /* border: solid red; */
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
 }
+
+
+.codewars-badge-container{
+    display: flex;
+    
+    justify-content: flex-end;
+}
+

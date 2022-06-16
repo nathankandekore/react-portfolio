@@ -1,21 +1,53 @@
 import React from "react";
-// import Codewars from "https://www.codewars.com/users/Nathan%20Kandekore/badges/small";
 import jslogo from "./assets/jslogo.svg";
 import csslogo from "./assets/csslogo.svg";
 import html_logo from "./assets/html-logo.svg";
 import reactlogo from "./assets/reactlogo.svg";
+import githublogo from "./assets/githublogo.svg";
+import linkedinlogo from "./assets/linkedinlogo.svg";
+import twitterlogo from "./assets/twitterlogo.svg";
+import javalogo from "./assets/javalogo.svg";
+import pythonlogo from "./assets/pythonlogo.svg";
+import gitlogo from "./assets/gitlogo.svg";
 
 export default function About() {
   return (
     <>
       <div className="about-container">
         <section className="skills">
-          <div className="socials-icons">
-            <span></span>
-            <span></span>
-            <span></span>
+          <div className="icons-container">
+            <div className="icon-container">
+              <a
+                className="icon-container"
+                href="https://github.com/nathankandekore"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={githublogo} alt="github-logo" />
+              </a>
+            </div>
+            <div className="icon-container">
+              <a
+                className="icon-container"
+                href="https://www.linkedin.com/in/nathankandekore/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={linkedinlogo} alt="linkedin-logo" />
+              </a>
+            </div>
+            <div className="icon-container">
+              <a
+                className="icon-container"
+                href="https://twitter.com/NathanKandekore"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={twitterlogo} alt="twitter-logo" />
+              </a>
+            </div>
           </div>
-          <div className="skills-icons">
+          <div className="icons-container">
             <div className="icon-container">
               <img src={html_logo} alt="html-logo" />
             </div>
@@ -28,14 +60,23 @@ export default function About() {
             <div className="icon-container">
               <img src={reactlogo} alt="react-logo" />
             </div>
+            <div className="icon-container">
+              <img src={pythonlogo} alt="python-logo" />
+            </div>
+            <div className="icon-container">
+              <img src={javalogo} alt="java-logo" />
+            </div>
+            <div className="icon-container">
+              <img src={gitlogo} alt="git-logo" />
+            </div>
           </div>
-          {/* <img src={Codewars} alt="codewars-badge" /> */}
         </section>
         <section className="about-me">
           <div className="about-me-text-container">
             <h1>
               <strong>About me</strong>
             </h1>
+
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis
               pulvinar sem, id consectetur augue. Sed tempus, dolor eu aliquet
@@ -46,6 +87,13 @@ export default function About() {
               iaculis augue. Praesent finibus, dui a accumsan pharetra, dui
               tortor mattis tortor, at egestas nulla dolor eget libero.
             </p>
+            <div className="codewars-badge-container">
+              <img
+                className="codewars-badge"
+                src="https://www.codewars.com/users/Nathan%20Kandekore/badges/micro"
+                alt="codewars-badge"
+              />
+            </div>
           </div>
         </section>
       </div>
