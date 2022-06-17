@@ -88,11 +88,17 @@ export default function About() {
               tortor mattis tortor, at egestas nulla dolor eget libero.
             </p>
             <div className="codewars-badge-container">
-              <img
-                className="codewars-badge"
-                src="https://www.codewars.com/users/Nathan%20Kandekore/badges/micro"
-                alt="codewars-badge"
-              />
+              <a
+                href="https://www.codewars.com/users/Nathan%20Kandekore"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  className="codewars-badge"
+                  src="https://www.codewars.com/users/Nathan%20Kandekore/badges/micro"
+                  alt="codewars-badge"
+                />
+              </a>
             </div>
           </div>
         </section>

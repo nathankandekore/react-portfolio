@@ -4,6 +4,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+    
+}
+
+
+
+strong{
+    color: #006494;
+    
 }
 
 body{
@@ -13,6 +22,11 @@ body{
     sans-serif;
     font-family: 'News Cycle',
     sans-serif;
+    
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 .intro-screen{
@@ -85,11 +99,16 @@ body{
     
     margin-top: 25%;
     
+    
+    
    
 }
 
-.icons-container a:hover{
+.icons-container a:hover, .codewars-badge{
  cursor: pointer;
+transform: scale(1.1);
+transition: all .5s ease-in;
+
 }
 
 
@@ -131,7 +150,67 @@ body{
 
 .codewars-badge-container{
     display: flex;
-    
     justify-content: flex-end;
 }
 
+.project-container{
+    display: flex;
+}
+
+.project-info {
+    height: 100vh;
+    width: 50vw;
+}
+
+.project-view{
+    height: 100vh;
+    width: 50vw;
+    background-color: #006494;
+    color: #fff;
+    
+}
+
+.project-text{
+    /* border: solid red; */
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding-top: 50%;
+}
+
+.background-cover{
+    /* border: solid orange; */
+    margin: 150px;
+    padding: 150px;
+    border-radius: 15px;
+    
+   
+}
+
+
+
+.background-cover:hover{
+    
+    background-image: url(./assets/betaminds.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: transparent;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+     
+}
+
+
+.project-background-image-pomodoro {
+    background-image: url(./assets/pomodoro.png);
+    opacity: 30%;
+}
+
+.project-background-image-syxxshoots {
+    background-image: url(./assets/syxxshoots.png);
+    opacity: 30%;
+}
