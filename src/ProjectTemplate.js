@@ -1,9 +1,7 @@
 import React from "react";
-// import Data from "./Data";
+import Data from "./Data";
 
-export default function ProjectRight() {
-  //set up state for background colour
-
+const ProjectTemplate = () => {
   return (
     <>
       <div className="project-container">
@@ -14,8 +12,6 @@ export default function ProjectRight() {
             </h1>
             <h4>Built with: </h4>
             <h4>HTML, CSS, React</h4>
-
-            {/* data from mapped objected here */}
           </div>
         </section>
         <section className="project-view">
@@ -29,4 +25,6 @@ export default function ProjectRight() {
       </div>
     </>
   );
-}
+};
+
+export default ProjectTemplate;
