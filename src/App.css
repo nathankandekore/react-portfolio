@@ -185,17 +185,19 @@ transition: all .5s ease-in;
     margin: auto;
     width: 50%;
     text-align: center;
-    padding-top: 50%;
+    padding-top: 30%;
 }
 
 .project-card{
-    border: solid #006494 5px;
+    border: solid #006494 2px;
+    padding-top: 20%;
         width: 100%;
         height: 100%;
 }
 
 .project-card-left{
-    border: solid #247BA0 5px;
+    border: solid #247BA0 2px;
+    padding-top: 20%;
     width: 100%;
         height: 100%;
     
@@ -203,6 +205,8 @@ transition: all .5s ease-in;
 
 .project-card img{
     border: none;
+    
+    padding: 5px;
     width: 100%;
         height: 100%;
         object-fit: cover;
@@ -211,10 +215,12 @@ transition: all .5s ease-in;
 
 .project-card-left img{
     border: none;
+    
+    padding:  5px;
         width: 100%;
         height: 100%;
         object-fit: cover;
-        overflow: hidden;
+        /* overflow: hidden; */
 }
 
 .project-card a{
