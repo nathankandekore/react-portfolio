@@ -9,6 +9,14 @@ export default function ProjectRight(props) {
   return (
     <>
       <div className="project-container">
+        <section className="project-view">
+          <div className="project-card-left">
+            <div className="project-image-frame">
+              <img src={Betaminds} alt="Betaminds" />
+            </div>
+            <a href="#">view project</a>
+          </div>
+        </section>
         <section className="project-info">
           <div className="project-text">
             <h1>
@@ -18,14 +26,6 @@ export default function ProjectRight(props) {
             <h4>HTML, CSS, React</h4>
 
             {/* data from mapped objected here */}
-          </div>
-        </section>
-        <section className="project-view">
-          <div className="project-card">
-            <div className="project-image-frame">
-              <img src={Betaminds} alt="Betaminds" />
-            </div>
-            <a>view project</a>
           </div>
         </section>
       </div>
