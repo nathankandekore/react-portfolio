@@ -78,15 +78,17 @@ export default function About() {
             </h1>
 
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis
-              pulvinar sem, id consectetur augue. Sed tempus, dolor eu aliquet
-              faucibus, est magna consequat leo, at interdum mi sapien quis
-              risus. Quisque ac commodo arcu, vel efficitur sem. Integer semper
-              elementum commodo. Nulla hendrerit erat erat, quis fringilla dolor
-              eleifend a. Aliquam leo orci, fermentum id nisi sed, iaculis
-              iaculis augue. Praesent finibus, dui a accumsan pharetra, dui
-              tortor mattis tortor, at egestas nulla dolor eget libero.
+              I am a Software Developer based in London. I am a self-taught
+              Programmer, proficient in front-end developement. I have an
+              extensive background in the Social Care Sector, employed as a
+              Social Worker protecting children and young people from
+              significant harm. I have a growth mindset, and view learning as a
+              worthy lifelong pursuit. I am currently studying part-time at
+              Birkbeck University for a Masters Degree in Computer Science. I am
+              particularly interested in Blockchain technology, Augmented
+              Reality, and the Metaverse.
             </p>
+            <br />
             <div className="codewars-badge-container">
               <a
                 href="https://www.codewars.com/users/Nathan%20Kandekore"
