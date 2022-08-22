@@ -1,5 +1,5 @@
 import React from "react";
-import Pic from "./assets/nathanlarge.jpg";
+import Pic from "./assets/porfolio_pic.jpg";
 
 export default function Name() {
   return (
