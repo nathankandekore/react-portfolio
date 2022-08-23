@@ -3,6 +3,7 @@ import Name from "./Name";
 import About from "./About";
 import ProjectRight from "./ProjectRight";
 import ProjectLeft from "./ProjectLeft";
+// import Contact from "./Contact";
 import Betaminds from "./assets/betaminds.png";
 import Groupsoup from "./assets/groupsoup_screenshot.png";
 import Syxxshoots from "./assets/syxxshoots_screenshot.png";
@@ -34,6 +35,7 @@ function App() {
         link="https://tangerine-halva-e410de.netlify.app/"
         about="Syxxshoots is a brand created by a hobbyist Photographer. He was predominantly using Instagram to showcase his work. The mandate was clear that the quality of his pictures was of the upmost importance. There was a compromise to be found between the quality of the pictures and the impact on loading time."
       />
+      {/* <Contact /> */}
     </>
   );
 }

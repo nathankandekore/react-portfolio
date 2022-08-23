@@ -15,36 +15,38 @@ export default function About() {
     <>
       <div className="about-container">
         <section className="skills">
-          <div className="icons-container">
-            <div className="icon-container">
-              <a
-                className="icon-container"
-                href="https://github.com/nathankandekore"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={githublogo} alt="github-logo" />
-              </a>
-            </div>
-            <div className="icon-container">
-              <a
-                className="icon-container"
-                href="https://www.linkedin.com/in/nathankandekore/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={linkedinlogo} alt="linkedin-logo" />
-              </a>
-            </div>
-            <div className="icon-container">
-              <a
-                className="icon-container"
-                href="https://twitter.com/NathanKandekore"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={twitterlogo} alt="twitter-logo" />
-              </a>
+          <div className="animation-effect-container">
+            <div className="icons-container">
+              <div className="icon-container">
+                <a
+                  className="icon-container"
+                  href="https://github.com/nathankandekore"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={githublogo} alt="github-logo" />
+                </a>
+              </div>
+              <div className="icon-container">
+                <a
+                  className="icon-container"
+                  href="https://www.linkedin.com/in/nathankandekore/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={linkedinlogo} alt="linkedin-logo" />
+                </a>
+              </div>
+              <div className="icon-container">
+                <a
+                  className="icon-container"
+                  href="https://twitter.com/NathanKandekore"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={twitterlogo} alt="twitter-logo" />
+                </a>
+              </div>
             </div>
           </div>
           <div className="icons-container">
@@ -89,18 +91,20 @@ export default function About() {
               Reality, and the Metaverse.
             </p>
             <br />
-            <div className="codewars-badge-container">
-              <a
-                href="https://www.codewars.com/users/Nathan%20Kandekore"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  className="codewars-badge"
-                  src="https://www.codewars.com/users/Nathan%20Kandekore/badges/micro"
-                  alt="codewars-badge"
-                />
-              </a>
+            <div className="animation-effect-container">
+              <div className="codewars-badge-container">
+                <a
+                  href="https://www.codewars.com/users/Nathan%20Kandekore"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    className="codewars-badge"
+                    src="https://www.codewars.com/users/Nathan%20Kandekore/badges/micro"
+                    alt="codewars-badge"
+                  />
+                </a>
+              </div>
             </div>
           </div>
         </section>

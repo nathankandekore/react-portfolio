@@ -99,16 +99,33 @@ body::-webkit-scrollbar {
     margin-top: 25%;
     
     
-    
+
    
 }
 
-.icons-container a:hover, .codewars-badge{
- cursor: pointer;
-transform: scale(1.1);
-transition: all .5s ease-in;
-
+.animation-effect-container{
+    transform: scale(1);
+            animation: pulse 2s infinite;
 }
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+        
+    }
+
+    70% {
+        transform: scale(1);
+        
+    }
+
+    100% {
+        transform: scale(0.95);
+        
+    }
+}
+
+
 
 
 
@@ -127,7 +144,7 @@ transition: all .5s ease-in;
     height: 50px;
     width: 50px;
     background-color: #fff;
-    padding: 2em;
+    /* padding: 2em; */
     margin: 1em;
    
     border-radius: 100%;
@@ -246,6 +263,10 @@ transition: all .5s ease-in;
         margin-left: 50%;
         text-decoration: none;
 }
+
+
+
+
 
 
 @media only screen and (max-width: 600px) {
