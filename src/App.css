@@ -270,17 +270,68 @@ body::-webkit-scrollbar {
 
 
 @media only screen and (max-width: 600px) {
-    .project-container {
+    .intro-screen{
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .intro-text, .intro-pic{
+        width: 100vw;
         flex-direction: column;
     }
+
+    
+
+   
 
     .about-container{
         flex-direction: column;
     }
 
-        .intro-text,
-        .intro-pic{
-            flex-direction: column;
+        .about-me-text-container{
+            margin: 100px
+        }
+
+    .skills, .about-me{
+        width: 100vw;
+        flex-direction: column;
+        
+        
+    }
+
+    .about-me{
+        padding: 0;
+        
+        
+    }
+
+    
+
+    .project-container {
+        flex-direction: column;
+    }
+            
+    .intro-text, .project-view, .project-card, .project-card-left, .project-info{
+width: 100vw;
+height: 80vh;
+    flex-direction: column;
+    }    
+
+    .icon-container{
+        margin: 0;
+    }
+
+    .project-info{
+        display: none;
+    }
+
+    .project-card, .project-card-left{
+        padding-top: 10px;
+    }
+
+        .project-card a,
+        .project-card-left a{
+            margin-left: 45%;
         }
 }
 
