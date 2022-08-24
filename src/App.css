@@ -40,7 +40,7 @@ body::-webkit-scrollbar {
 }
 
 .intro-text, .intro-pic{
-    height: 100vh;
+    height: 99vh;
     width: 50vw;
    
     display: flex;
@@ -76,15 +76,32 @@ body::-webkit-scrollbar {
 }
 
 .about-me-text-container{
-    margin: 200px;
+    margin: 100px 200px auto;
     
 }
+
+@media only screen and (max-width: 1265px) {
+    .about-me-text-container {
+            margin: 100px 100px auto;
+    
+        }
+}
+
+@media only screen and (max-width: 945px) {
+    .about-me-text-container {
+        margin: 80px 80px auto;
+        margin-top: 100PX;
+
+    }
+}
+
+
 
 
 
  .about-me{
     
-    height: 100vh;
+    height: 99vh;
     width: 50vw;
   
 }
@@ -132,7 +149,7 @@ body::-webkit-scrollbar {
 
 
 .skills{
-    height: 100vh;
+    height: 99vh;
     width: 50vw;
     background-color: #ACC8E5;
     
@@ -188,7 +205,7 @@ body::-webkit-scrollbar {
 }
 
 .project-view{
-    height: 100vh;
+    height: 99vh;
     width: 50vw;
     color: #fff;
     
@@ -269,7 +286,7 @@ body::-webkit-scrollbar {
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 950px) {
     .intro-screen{
         flex-direction: column;
         width: 100vw;
@@ -288,9 +305,11 @@ body::-webkit-scrollbar {
         flex-direction: column;
     }
 
-        .about-me-text-container{
-            margin: 100px
-        }
+    /* .about-me-text-container{
+        margin: 10px;
+    } */
+
+        
 
     .skills, .about-me{
         width: 100vw;
